@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Economica|Quantico');
+
+/* Template styles (style.css)
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  padding-top: 5rem;
+  margin-bottom: 60px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+p:nth-of-type(n)#trackList{
+    background-color: lightgray;
+}
+
+
+p:nth-of-type(odd)#verse{
+    background-color: lightgray;
+}
+
+p#chorus{
+    font-style:italic;
+}
+
+nav{
+    font-family: 'Arimo', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Quantico', sans-serif;
+}
+
+footer{
+    font-family: 'Evonomica', sans-serif;
+}
